@@ -3803,8 +3803,8 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-color: #fff;
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.5);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -10988,23 +10988,24 @@ body {
   letter-spacing: 0.0625em;
 }
 
+/* color for header when on phone */
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: rgba(93, 0, 27, 0.8);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #a42c2c;
+  color: #fff;
   border: 1px solid #a42c2c;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: #fff;
   font-weight: 700;
-  padding: 0.9rem 0;
+  padding: 0.1rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
