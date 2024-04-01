@@ -11140,6 +11140,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11170,6 +11171,44 @@ body {
     padding: 5rem;
   }
 }
+
+
+
+.projects-section-1 {
+  padding: 10rem 0;
+}
+.projects-section-1 .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section-1 .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #a42c2c;
+  }
+}
+
+.projects-section-1 .featured-text-2 {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section-1 .featured-text-2 {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem;
+  }
+}
+
+.projects-section-1 .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section-1 .project-text {
+    padding: 5rem;
+  }
+}
+
+
+
 
 .signup-section {
   padding: 10rem 0;
@@ -11422,3 +11461,50 @@ bodY {
   }
 }
 */
+
+
+.wave-container {  
+  height: 40vh;
+  background-color: rgba(206, 255, 255, 0);
+  position: relative;
+}
+
+.wave-container::before {   
+  content: "";
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 20vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  134' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23f8f9fa'/></svg>");
+}
+
+@media(max-width:850px) {
+  .wave-container::before {    
+    height: 65px
+  }  
+}
+
+
+
+
+.curved {
+  position: relative;
+  background: #303030;
+  height: 10vh;
+  border-bottom-left-radius: 50% 64%;
+  border-bottom-right-radius: 50% 64%;
+  margin: -4%;
+}
+
+.curved-1 {
+  position: relative;
+  background: #F8F9FA;
+  height: 10vh;
+  border-bottom-left-radius: 50% 64%;
+  border-bottom-right-radius: 50% 64%;
+  margin: -4%;
+}
